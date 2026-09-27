@@ -15,6 +15,6 @@
   "engines": {
     "node": ">=20"
   },
-  "keywords": ["openai", "proxy", "api", "wrapper", "study", "reverse-engineering", "cline"],
+  "keywords": ["openai", "proxy", "api", "wrapper", "study", "reverse-engineering", "cline", "codearts", "huawei"],
   "license": "MIT"
 }
