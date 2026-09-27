@@ -1,0 +1,20 @@
+{
+  "name": "agent2api",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Wrap a login-protected web chat agent as a local OpenAI-compatible API with tool calling. Bring your own packet capture - no vendor values shipped.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node tools/reg.mjs",
+    "test:hardening": "node tools/hardening.test.mjs",
+    "test:shim": "node tools/shim.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": ["openai", "proxy", "api", "wrapper", "study", "reverse-engineering", "cline"],
+  "license": "MIT"
+}
